@@ -249,7 +249,7 @@ async def help_command(update: Update, context: CallbackContext) -> None:
     await show_navigation_menu(update, context)
 
 def main() -> None:
-    application = Application.builder().token("7700731666:AAESsLAY8Bu_KNNYBm3KCAL4ugKZWGVzbGw").build()
+    application = Application.builder().token("YOUR_BOT_TOKEN").build()
 
     # рег
     conv_handler = ConversationHandler(
